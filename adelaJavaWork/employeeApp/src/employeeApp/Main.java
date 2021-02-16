@@ -28,6 +28,14 @@ public class Main
 
         e1.setSalary(e1.getSalary() + 5000);
         System.out.println(e1.getFname() + "" + e1.getSalary());
+
+        System.out.println();
+        System.out.println(c1.debt / 7); //int - whole part
+        System.out.println(c1.debt % 7); //int - reminder
+        System.out.println(c1.debt / 7.0); //decimal double
+
+        int result = 100 / (int) 3.14; //3.78 is still a 3 as an int
+        System.out.println(result);
     }
     public static void main(String[] args)
     {
